@@ -25,6 +25,7 @@ namespace CalculadoraFunciones
         {
             return Math.Pow(a, b);
         }
+        
         static void Main(string[] args)
         {
             while (true)
@@ -54,6 +55,7 @@ namespace CalculadoraFunciones
                         Console.WriteLine($"{a} + {b} = {Sumar(a, b)}");
                         Console.ReadKey();
                         break;
+                        
                     case "2":
                         Console.WriteLine("Restar");
                         Console.Write("Introduce un numero: ");
@@ -63,6 +65,7 @@ namespace CalculadoraFunciones
                         Console.WriteLine($"{a} - {b} = {Restar(a, b)}");
                         Console.ReadKey();
                         break;
+                        
                     case "3":
                         Console.WriteLine("Multiplicar");
                         Console.Write("Introduce un numero: ");
@@ -72,6 +75,7 @@ namespace CalculadoraFunciones
                         Console.WriteLine($"{a} X {b} = {Multi(a, b)}");
                         Console.ReadKey();
                         break;
+                        
                     case "4":
                         Console.WriteLine("Divir");
                         Console.Write("Introduce un numero: ");
@@ -81,6 +85,7 @@ namespace CalculadoraFunciones
                         Console.WriteLine($"{a} % {b} = {Divi(a, b)}");
                         Console.ReadKey();
                         break;
+                        
                     case "5":
                         Console.WriteLine("Potencia");
                         Console.Write("Introduce un numero: ");
@@ -90,6 +95,7 @@ namespace CalculadoraFunciones
                         Console.WriteLine($"{a} ^ {b} = {Pote(a, b)}");
                         Console.ReadKey();
                         break;
+                        
                     case "6":
                         return;
                     default:
